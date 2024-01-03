@@ -14,7 +14,7 @@ Sarsılmaz, PHP ile geliştirilmiş bir modüler Web Uygulama Güvenlik Duvarı 
 
 Sarsılmaz'ı kullanmak için aşağıdaki adımları takip edebilirsiniz:
 
-1. Projeyi kendi bilgisayarınıza klonlayın: `git clone https://github.com/kullaniciadi/sarsilmaz.git`
+1. Projeyi kendi bilgisayarınıza klonlayın: `git clone https://github.com/mertdurum06/sarsilmaz_waf.git`
 2. Gerekli bağımlılıkları yükleyin: `composer require symfony/yaml`
 
 ## Kullanım
