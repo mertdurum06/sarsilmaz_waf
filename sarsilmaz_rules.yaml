@@ -1,18 +1,8 @@
 -
     id: sqli
     log: 'SQL Enjeksiyonu denemesi tespit edildi.'
-    rule: [1=1, '--', select, from, where, union, xp_cmdshell, xp_shell, sleep(, 1=2]
+    rule: [1=1, '--', select, from, where, union, xp_shell, sleep(, 1=2]
 -
     id: xss
     log: 'XSS denemesi tespit edildi.'
     rule: ['javascript:alert', alert(, '<script', onmouseover=, location.href, script]
-- id: cmdexec
-  log: Komut çalıştırma denemesi tespit edildi.
-  rule:
-    - whoami
-
-- id: pathtraversal
-  log: Dizin değiştirme denemesi yapıldı.
-  rule:
-    - ..//
-
