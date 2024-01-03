@@ -70,7 +70,7 @@ function urilogla($telegram_api,$log,$clientip) {
     // Telegram botuna ilgili log kaydı notify ediliyor.
     function telegramaUriGonder($telegram_api,$log,$clientip){
         $data = [
-            'chat_id' => '-1002065167100',
+            'chat_id' => '',
             'text' => 'TARIH: '. date('Y-m-d H:i:s').' | BULGU: '.$log.' | URI: '.$_SERVER['REQUEST_URI'].' | CLIENT: '.$clientip
       ];
       $response = file_get_contents("https://api.telegram.org/bot$telegram_api/sendMessage?" . http_build_query($data) );
@@ -85,7 +85,7 @@ function headerlogla($telegram_api,$log,$clientip,$headers,$hvalues) {
     // Telegram botuna ilgili log kaydı notify ediliyor.    
     function telegramaHeaderGonder($telegram_api,$log,$clientip,$headers,$hvalues){
         $data = [
-            'chat_id' => '-1002065167100',
+            'chat_id' => '',
             'text' => 'TARIH: '. date('Y-m-d H:i:s').' | BULGU: ' . $log . ' | HEADER: ' . $headers . ' | VALUE: ' . $hvalues . ' | CLIENT: ' . $clientip 
       ];
       $response = file_get_contents("https://api.telegram.org/bot$telegram_api/sendMessage?" . http_build_query($data) );
@@ -100,7 +100,7 @@ function bodylogla($telegram_api,$log,$clientip,$body) {
     // Telegram botuna ilgili log kaydı notify ediliyor.
     function telegramaBodyGonder($telegram_api,$log,$body,$clientip){
         $data = [
-            'chat_id' => '-1002065167100',
+            'chat_id' => '',
             'text' => 'TARIH: '. date('Y-m-d H:i:s').' | BULGU: '.$log.' | BODY: ' . $body. ' | CLIENT: '.$clientip
       ];
       $response = file_get_contents("https://api.telegram.org/bot$telegram_api/sendMessage?" . http_build_query($data) );
