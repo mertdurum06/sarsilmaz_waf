@@ -1,0 +1,7 @@
+TARIH: 2023-12-31 12:33:10 | BULGU: XSS denemesi tespit edildi. | BODY: username=%3Cscript&password=hghjkl%C5%9F  | CLIENT: ::1
+TARIH: 2023-12-31 12:33:44 | BULGU: SQL Enjeksiyonu denemesi tespit edildi. | BODY: username=--+-&password=sad  | CLIENT: ::1
+TARIH: 2023-12-31 12:34:57 | BULGU: XSS denemesi tespit edildi. | BODY: username=%3Cscript%3E&password=asddadasdad  | CLIENT: ::1
+TARIH: 2023-12-31 12:37:25 | BULGU: SQL Enjeksiyonu denemesi tespit edildi. | BODY: username=select&password=select  | CLIENT: ::1
+TARIH: 2023-12-31 12:37:31 | BULGU: SQL Enjeksiyonu denemesi tespit edildi. | BODY: username=--&password=sada  | CLIENT: ::1
+TARIH: 2023-12-31 12:39:10 | BULGU: SQL Enjeksiyonu denemesi tespit edildi. | BODY: username=from&password=sadasd  | CLIENT: ::1
+TARIH: 2024-01-03 11:57:20 | BULGU: SQL Enjeksiyonu denemesi tespit edildi. | BODY: username=sd%22+or+1%3D1--+-&password=adasdsad  | CLIENT: ::1

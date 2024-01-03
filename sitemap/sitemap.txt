@@ -1,0 +1,9 @@
+arama.php
+index.php
+sitemap.php
+status.php
+cokgizli.txt
+style.css
+script.js
+admin/
+login/
