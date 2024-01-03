@@ -7,7 +7,7 @@ require "D:/xamp/htdocs/vendor/autoload.php";
 use Symfony\Component\Yaml\Yaml;
 
 // TELEGRAM Api
-$telegram_api = "6765166094:AAEfY3mnpvkC93_OxdwysR3makzUYKSSSgs";
+$telegram_api = "#";
 
 // Kuralların bulunduğu kural listesi dosyamızı import ve parse ediyoruz.
 $rulefile = Yaml::parseFile('D:/xamp/htdocs/sarsilmaz_rules.yaml');
